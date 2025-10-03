@@ -78,7 +78,6 @@ class BankAtmTest {
     assertThat(account2.getBalance()).isEqualTo(300.0);
   }
 
-
   @Test
   void testDepositFunds_DoesntDepositCheckTwice() {
     Check check = new Check("987654321", 100.0, account1);

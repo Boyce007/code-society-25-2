@@ -18,7 +18,4 @@ public class MoneyOrder extends FundTransfer {
     this.toAccount = toAccount;
     depositFunds(toAccount);
   }
-
-
-  
 }
